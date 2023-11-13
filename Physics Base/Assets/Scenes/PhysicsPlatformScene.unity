@@ -61594,6 +61594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCharacter_Physics
       objectReference: {fileID: 0}
+    - target: {fileID: 8859604146097388676, guid: 7e7e0cb6cc441a049ae538ea42bbaf88, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
