@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Checkpoint
   - Danger
+  - Waypoint
   layers:
   - Default
   - TransparentFX
