@@ -27,10 +27,11 @@ public class OnTheBar : MonoBehaviour
     {
         if (inTheZone)
         {
-            if (!balanceUI.isActiveAndEnabled)
+            if (!balanceUI.gameObject.activeSelf)
             {
-                balanceUI.enabled = true;
+                balanceUI.gameObject.SetActive(true);
             }
+
             if (balanceNumber > 0) 
             { 
                 if (balanceNumber < 100.1) 
@@ -68,6 +69,13 @@ public class OnTheBar : MonoBehaviour
 
             balanceSlider.value = balanceNumber;
 
+        }
+        else
+        {
+            if (balanceUI.gameObject.activeSelf)
+            {
+                balanceUI.gameObject.SetActive(false);
+            }
         }
 
 
