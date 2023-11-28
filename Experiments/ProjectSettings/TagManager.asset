@@ -8,6 +8,8 @@ TagManager:
   - Danger
   - ModeController
   - Moveable
+  - Surface
+  - Climbable
   layers:
   - Default
   - TransparentFX

@@ -39,7 +39,7 @@ public class RigidBodyExplosion : MonoBehaviour {
                 rndDirection.y = Random.Range(-1, 1);
                 rndDirection.z = Random.Range(-1, 1);
                 
-                GameObject _currentPiece = Instantiate(PrefabRigidBody,rndPosition,Quaternion.identity);
+                GameObject _currentPiece = Instantiate(PrefabRigidBody,rndPosition,gameObject.transform.rotation);
                 _currentPiece.GetComponent<Rigidbody>().AddExplosionForce(forceStrength,transform.position,forceRadius, Random.Range(-3.0f, 3.0f));
                 //_currentPiece.GetComponent<Rigidbody>().AddForce(rndDirection * forceStrength, ForceMode.Impulse);
             }
