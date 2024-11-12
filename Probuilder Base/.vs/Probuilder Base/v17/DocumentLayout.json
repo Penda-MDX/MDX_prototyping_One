@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFAD482-58FF-2779-9BAE-407C54B56415}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\probuilder base\\assets\\scripts\\basicmoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BFAD482-58FF-2779-9BAE-407C54B56415}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicmoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFAD482-58FF-2779-9BAE-407C54B56415}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\probuilder base\\assets\\scripts\\starterscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BFAD482-58FF-2779-9BAE-407C54B56415}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\starterscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFAD482-58FF-2779-9BAE-407C54B56415}|Assembly-CSharp.csproj|D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BFAD482-58FF-2779-9BAE-407C54B56415}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StarterScript.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\Assets\\Scripts\\StarterScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StarterScript.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\Assets\\Scripts\\StarterScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StarterScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:17:32.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasicMoveInput.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\Assets\\Scripts\\BasicMoveInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BasicMoveInput.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\Assets\\Scripts\\BasicMoveInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BasicMoveInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:16:43.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckPoint.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\Assets\\Scripts\\CheckPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckPoint.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Probuilder Base\\Assets\\Scripts\\CheckPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CheckPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:16:37.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
