@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\fallingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\mousepointerraycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousepointerraycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\mousepointer3d_constrained.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousepointer3d_constrained.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\assets\\scripts\\fallingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fallingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\activateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\switchbasedontag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\assets\\scripts\\switchbasedontag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\switchbasedontag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MousePointerRayCollision.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointerRayCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MousePointerRayCollision.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointerRayCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MousePointerRayCollision.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:17:05.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MousePointer3D_constrained.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointer3D_constrained.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MousePointer3D_constrained.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointer3D_constrained.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MousePointer3D_constrained.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:55:09.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FallingPlatform.cs",
               "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\FallingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FallingPlatform.cs",
@@ -34,12 +68,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FallingPlatform.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:37:52.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T12:37:52.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SwitchBasedOnTag.cs",
               "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\SwitchBasedOnTag.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SwitchBasedOnTag.cs",
@@ -47,12 +80,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SwitchBasedOnTag.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:11:21.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T10:11:21.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ActivateObject.cs",
               "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ActivateObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ActivateObject.cs",
@@ -60,8 +92,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ActivateObject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:34:21.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T09:34:21.204Z"
             }
           ]
         }
