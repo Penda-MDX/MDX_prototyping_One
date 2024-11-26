@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MousePointerRayCollision : MonoBehaviour
@@ -7,6 +8,7 @@ public class MousePointerRayCollision : MonoBehaviour
     public GameObject InGamePointer;
     public bool IsOn;
     public Vector3 Offset;
+    public GameObject spawnable;
 
     //private Vector3 pos;
 
@@ -37,6 +39,11 @@ public class MousePointerRayCollision : MonoBehaviour
                     print(hit.point);
                     InGamePointer.transform.position = hit.point + Offset;
                 }
+            }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                Instantiate(spawnable, InGamePointer.transform.position,Quaternion.identity);
             }
             
             //InGamePointer.transform.position = Camera.main.ScreenToWorldPoint(pos);
