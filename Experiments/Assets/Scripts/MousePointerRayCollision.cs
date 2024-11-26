@@ -19,6 +19,12 @@ public class MousePointerRayCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Toggle using g key
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            IsOn = !IsOn;
+        }
+
         if (IsOn)
         {
             Ray pos = Camera.main.ScreenPointToRay(Input.mousePosition);

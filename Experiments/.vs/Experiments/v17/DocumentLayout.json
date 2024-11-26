@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousepointerraycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\mousepointer3d_constrained.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\assets\\scripts\\mousepointer3d_constrained.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousepointer3d_constrained.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|d:\\2024\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\climbingswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\climbingswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CDA6ABE-1B1A-C1E4-7367-02D7C91014A1}|Assembly-CSharp.csproj|D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\assets\\scripts\\fallingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClimbingSwitch.cs",
+              "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ClimbingSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ClimbingSwitch.cs",
+              "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ClimbingSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ClimbingSwitch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:02:33.97Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +57,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MousePointerRayCollision.cs",
               "ToolTip": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointerRayCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\MousePointerRayCollision.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T15:17:05.45Z",
               "EditorCaption": ""
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FallingPlatform.cs",
               "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\FallingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FallingPlatform.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SwitchBasedOnTag.cs",
               "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\SwitchBasedOnTag.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SwitchBasedOnTag.cs",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ActivateObject.cs",
               "DocumentMoniker": "D:\\2024\\Penda\\Unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ActivateObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ActivateObject.cs",
