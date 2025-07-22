@@ -1,0 +1,179 @@
+{
+    "version": 1,
+    "name": "Basic Starter Input Actions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "9afa6e90-1d5f-40ea-afb1-207c1d588a22",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "60e4870e-6b5f-44a1-9c96-9468858819ab",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "03879256-8164-4895-9956-24718e0fe8cb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interact",
+                    "type": "Value",
+                    "id": "8654b2ed-81e3-42b7-a6f9-c8bf716ed948",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "1ab84861-88e1-4d87-bee8-b185d6785cd2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "49e48e77-3704-4d8f-a101-ecb1842b3073",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "88bffb8a-855b-4ba9-8bb1-6fdbe8bf5c4a",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "d96287fd-47d9-4060-812d-02ec8072620f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "086105fb-517b-4a7a-a7b0-8ce1f3bc5140",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a04ee79f-93ba-4e38-b4f8-64b9d1e5b1be",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "a6515e18-752d-4dad-a7ca-9536cce6ba61",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4fdb3ed3-721f-4b15-a69c-ba6f5ebc964f",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "76de27f0-613d-418f-a033-7ca8f86b3cb6",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "c21869c8-e52d-4fa9-912c-9420453f2c8a",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5fdc9228-5170-4577-8752-5dc886eda985",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "af5a5f56-d982-483e-921e-9b34ddd2ab53",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
