@@ -116,4 +116,9 @@ public class ImprovedCCwInputSystem : MonoBehaviour
     {
         interactPressed = true;
     }
+
+    public void OnMovement(InputValue value)
+    {
+        Debug.Log("Move");
+    }
 }
