@@ -42,4 +42,12 @@ public class FallingPlatform : MonoBehaviour
         }
 
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (go && other.gameObject.tag == "Player")
+        {
+            
+            timeToFall = Time.time;
+        }
+    }
 }
