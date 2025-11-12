@@ -6,29 +6,37 @@ public class PickUpController : MonoBehaviour
 {
     public string pickUpKey;
     public List<string> pickUpTags;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject currentObject;
+    public UIManager UIhandler;
+    public ProgressTracker tracker;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        //UIhandler.
     }
 
     public void showPickUpMessage()
     {
-
+        UIhandler.ShowMessage("Press E to Pick Up");
     }
 
-    public void hidePickUpMessage() { 
-    
+    public void hidePickUpMessage() 
+    {
+        UIhandler.HideMessage();
     }
 
     public void pickUpItem(string itemType)
     {
-
+        switch (itemType)
+        {
+            case "YellowKey":
+                tracker.keyCount++;
+                currentObject.SetActive(false);
+                UIhandler.HideMessage();
+                break;
+            default:
+                Debug.Log("Picked Up " + itemType);
+                break;
+        }
     }
 }

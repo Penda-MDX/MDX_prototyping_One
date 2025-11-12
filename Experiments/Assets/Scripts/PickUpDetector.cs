@@ -23,6 +23,7 @@ public class PickUpDetector : MonoBehaviour
             if(Input.GetKeyUp(controller.pickUpKey))
             {
                 controller.pickUpItem(itemType);
+                canPickUp = false;
             }
         }
         else
@@ -39,6 +40,7 @@ public class PickUpDetector : MonoBehaviour
             {
                 canPickUp = true;
                 itemType = ptag;
+                controller.currentObject = other.gameObject;
             }
         }
     }
@@ -51,6 +53,7 @@ public class PickUpDetector : MonoBehaviour
             {
                 canPickUp = false;
                 itemType = "";
+                controller.currentObject = null;
             }
         }
 

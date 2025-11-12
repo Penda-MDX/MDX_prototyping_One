@@ -7,6 +7,8 @@ public class CheckPointTracker : MonoBehaviour
     public Vector3 lastGoodCheckPoint;
     private bool resetPosition=false;
 
+    public ProgressTracker progressTracker;
+
     public void FixedUpdate()
     {
         if (resetPosition)
@@ -25,6 +27,8 @@ public class CheckPointTracker : MonoBehaviour
         if (other.gameObject.tag == "Danger")
         {
             resetPosition = true;
+            progressTracker.life--;
+
         }
 
     }
