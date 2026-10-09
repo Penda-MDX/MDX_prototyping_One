@@ -1,27 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BasicCharacterControl : MonoBehaviour
 {
-    public float fl_MovementSpeed = 6f;
-    public float fl_gravity = 2f;
-    public float fl_JumpForce = 0.8f;
-    private Vector3 V3_move_direction = Vector3.zero;
+    
+    [SerializeField] private float movementSpeed = 60f;
+    [SerializeField] private float gravity = 2f;
+    [SerializeField] private float jumpForce = 0.8f;
+    private Vector3 moveDirection = Vector3.zero;
 
     private bool jumpPressed;
-    private CharacterController cc_Reference_To_Character_Controller;
+    private CharacterController referenceToCharacterController;
     // Use this for initialization
     void Start()
     {
-        cc_Reference_To_Character_Controller = GetComponent<CharacterController>();
+        referenceToCharacterController = GetComponent<CharacterController>();
 
     }
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetButtonUp("Jump"))
+        if (Keyboard.current.spaceKey.isPressed)
         {
             jumpPressed = true;
         }
@@ -30,26 +32,47 @@ public class BasicCharacterControl : MonoBehaviour
             jumpPressed = false;
         }
 
-        if (cc_Reference_To_Character_Controller.isGrounded)
+        if (referenceToCharacterController.isGrounded)
         {
-            V3_move_direction.x = Input.GetAxis("Horizontal");
-            V3_move_direction.y = 0;
-            V3_move_direction.z = Input.GetAxis("Vertical");
-            V3_move_direction = V3_move_direction * fl_MovementSpeed * Time.deltaTime;
+            //moveDirection = Vector3.zero;
+
+            if (Keyboard.current.wKey.isPressed)
+            {
+                moveDirection.z = +1f;
+            }
+            if (Keyboard.current.sKey.isPressed)
+            {
+                moveDirection.z = -1f;
+            }
+            if (Keyboard.current.aKey.isPressed)
+            {
+                moveDirection.x = -1f;
+            }
+            if (Keyboard.current.dKey.isPressed)
+            {
+                moveDirection.x = +1f;
+            }
+
+            moveDirection = moveDirection * movementSpeed * Time.deltaTime;
 
             if (jumpPressed)
             {
-                V3_move_direction.y = fl_JumpForce;
+                moveDirection.y = jumpForce;
             }
         }
         else
         {
-            V3_move_direction.y -= fl_gravity * Time.deltaTime;
+            moveDirection.y -= gravity * Time.deltaTime;
         }
 
     }
     void FixedUpdate()
     {
-        cc_Reference_To_Character_Controller.Move(V3_move_direction);
+        referenceToCharacterController.Move(moveDirection);
+        if (referenceToCharacterController.isGrounded)
+        {
+            moveDirection = Vector3.zero;
+
+        }
     }
 }

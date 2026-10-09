@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\sidescrollcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sidescrollcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\basiccharactercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basiccharactercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\basiccontrollerwevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basiccontrollerwevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\physics_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\physics_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\basicmoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicmoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\basic starter\\assets\\scripts\\improvedccfoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\improvedccfoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SideScrollCamera.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\SideScrollCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SideScrollCamera.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\SideScrollCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SideScrollCamera.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T15:13:53.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasicControllerwEvents.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\BasicControllerwEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BasicControllerwEvents.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\BasicControllerwEvents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BasicControllerwEvents.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T14:58:53.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasicCharacterControl.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\BasicCharacterControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BasicCharacterControl.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\BasicCharacterControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BasicCharacterControl.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T13:48:15.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Physics_Character.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\Physics_Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Physics_Character.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\Physics_Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Physics_Character.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T13:41:18.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasicMoveInput.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\BasicMoveInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BasicMoveInput.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\BasicMoveInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BasicMoveInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T13:37:09.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImprovedCharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\ImprovedCharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ImprovedCharacterController.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\ImprovedCharacterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ImprovedCharacterController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T13:36:58.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImprovedCCFoot.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\ImprovedCCFoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ImprovedCCFoot.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Basic Starter\\Assets\\Scripts\\ImprovedCCFoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ImprovedCCFoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T13:36:50.022Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

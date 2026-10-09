@@ -5,7 +5,7 @@ using UnityEngine;
 public class BasicMoveInput : MonoBehaviour
 {
 
-    public float moveSpeed = 1f;
+    [SerializeField] private float moveSpeed = 1f;
     // Start is called before the first frame update
     void Start()
     {

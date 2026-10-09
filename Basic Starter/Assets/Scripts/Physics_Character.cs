@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Physics_Character : MonoBehaviour {
 
-
+    [SerializeField] private bool useOldInput = false;
     [SerializeField] private float movementSpeed = 6f;
     [SerializeField] private float jumpForce = 8.0f;
     [SerializeField] private float maxVelocity = 5f;
@@ -33,9 +34,32 @@ public class Physics_Character : MonoBehaviour {
         {
             if (characterRB.linearVelocity.magnitude < maxVelocity)
             {
-                moveDirection.x = Input.GetAxis("Horizontal");
-                moveDirection.y = 0;
-                moveDirection.z = Input.GetAxis("Vertical");
+                if (useOldInput)
+                {
+                    moveDirection.x = Input.GetAxis("Horizontal");
+                    moveDirection.y = 0;
+                    moveDirection.z = Input.GetAxis("Vertical");
+                }
+                else
+                {
+                    if (Keyboard.current.wKey.isPressed)
+                    {
+                        moveDirection.z = +1f;
+                    }
+                    if (Keyboard.current.sKey.isPressed)
+                    {
+                        moveDirection.z = -1f;
+                    }
+                    if (Keyboard.current.aKey.isPressed)
+                    {
+                        moveDirection.x = -1f;
+                    }
+                    if (Keyboard.current.dKey.isPressed)
+                    {
+                        moveDirection.x = +1f;
+                    }
+                }
+
                 moveDirection = moveDirection * movementSpeed * Time.deltaTime;
                 if (moveDirection != Vector3.zero)
                 {
