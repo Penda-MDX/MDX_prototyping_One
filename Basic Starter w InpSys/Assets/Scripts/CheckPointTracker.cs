@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckPointTracker : MonoBehaviour
 {
-    public Vector3 lastGoodCheckPoint;
+    [SerializeField] private Vector3 lastGoodCheckPoint;
     private bool resetPosition=false;
 
     public void FixedUpdate()

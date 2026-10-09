@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ChangeColour : MonoBehaviour
 {
-    public Material startMaterial;
-    public Material endMaterial;
-    public bool hasChanged = false;
+    [SerializeField] private Material startMaterial;
+    [SerializeField] private Material endMaterial;
+    [SerializeField] private bool hasChanged = false;
 
-    private Renderer _Renderer;
+    private Renderer colourChangeRenderer;
 
     // Use this for initialization
     void Start()
     {
-        _Renderer = gameObject.GetComponent<Renderer>();
-        _Renderer.material = startMaterial;
+        colourChangeRenderer = gameObject.GetComponent<Renderer>();
+        colourChangeRenderer.material = startMaterial;
 
     }
 
@@ -24,7 +24,7 @@ public class ChangeColour : MonoBehaviour
         if (!hasChanged)
         {
             //change it
-            _Renderer.material = endMaterial;
+            colourChangeRenderer.material = endMaterial;
             hasChanged = true;
         }
     }
@@ -34,7 +34,7 @@ public class ChangeColour : MonoBehaviour
         if (hasChanged)
         {
             //change it
-            _Renderer.material = startMaterial;
+            colourChangeRenderer.material = startMaterial;
             hasChanged = false;
         }
     }
