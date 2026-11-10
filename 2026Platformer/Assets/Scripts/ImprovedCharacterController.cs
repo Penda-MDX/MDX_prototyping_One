@@ -20,7 +20,7 @@ public class ImprovedCharacterController : MonoBehaviour
     private CharacterController controller;
     private Vector3 velocity;
     private bool isGrounded = false;
-    private bool isJumping = false;
+    private bool isDashing = false;
   
     void Start()
     {
@@ -31,10 +31,10 @@ public class ImprovedCharacterController : MonoBehaviour
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
+        
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = 0f;
-            isJumping = false;
         }
             
 
@@ -61,31 +61,37 @@ public class ImprovedCharacterController : MonoBehaviour
         {
             transform.forward = moveDirection;
         }
-        velocity += moveDirection * Time.deltaTime * Speed;
-        //controller.Move(moveDirection * Time.deltaTime * Speed);
+        //velocity += moveDirection * Time.deltaTime * Speed;
+        controller.Move(moveDirection * Time.deltaTime * Speed);
 
-        if (isGrounded && !isJumping && Keyboard.current.spaceKey.isPressed)
+        if (isGrounded && Keyboard.current.spaceKey.wasReleasedThisFrame)
         {
             velocity.y += Mathf.Sqrt(JumpHeight * -2f * Gravity);
-            isJumping = true;
             isGrounded = false;
         }
-
+        Debug.Log("velocity numbers " + velocity);
         //start to fall
         if (velocity.y < 0)
         {
-            velocity.y += (Gravity * Time.deltaTime)*FallMultiplier;
+            velocity.y += Gravity * Time.deltaTime * FallMultiplier;
         }else //going up
         {
             velocity.y += Gravity * Time.deltaTime;
         }
-        
 
-        velocity.x /= 1 + (Drag.x * Time.deltaTime);
-        //velocity.y /= 1 + Drag.y * Time.deltaTime;
-        velocity.z /= 1 + (Drag.z * Time.deltaTime);
+        if (!isDashing && Keyboard.current.leftShiftKey.wasPressedThisFrame)
+        {
+            Debug.Log("Dash");
+            isDashing = true;
+            velocity += Vector3.Scale(transform.forward, DashDistance * new Vector3((Mathf.Log(1f / (Time.deltaTime * Drag.x + 1)) / -Time.deltaTime), 0, (Mathf.Log(1f / (Time.deltaTime * Drag.z + 1)) / -Time.deltaTime)));
+        }
 
-        controller.Move(velocity);
+
+        velocity.x /= 1 + Drag.x * Time.deltaTime;
+        velocity.y /= 1 + Drag.y * Time.deltaTime;
+        velocity.z /= 1 + Drag.z * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 
 }

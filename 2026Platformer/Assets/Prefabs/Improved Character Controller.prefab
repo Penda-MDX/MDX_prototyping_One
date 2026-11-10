@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3069402884123242758}
   - component: {fileID: 5040867213385544025}
   - component: {fileID: 3609884372041225329}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,9 +125,9 @@ GameObject:
   - component: {fileID: 7579979619709379174}
   - component: {fileID: 7579979619709379175}
   - component: {fileID: 7579979619709379172}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Improved Character Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,14 +188,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  JumpHeight: 2
+  JumpHeight: 3
   Gravity: -9.81
   GroundDistance: 0.2
   DashDistance: 5
   FallMultiplier: 15
   Ground:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   Drag: {x: 0.8, y: 0, z: 0.8}
   groundChecker: {fileID: 7579979619784140200}
 --- !u!1 &7579979619784140201
@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7579979619784140200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheckerPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 3919319285426165318}
   - component: {fileID: 7150167674607390488}
   - component: {fileID: 9135330744705914705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
