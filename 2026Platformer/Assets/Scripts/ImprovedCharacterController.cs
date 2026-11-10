@@ -12,6 +12,7 @@ public class ImprovedCharacterController : MonoBehaviour
     [SerializeField] private float Gravity = -9.81f;
     [SerializeField] private float GroundDistance = 0.2f;
     [SerializeField] private float DashDistance = 5f;
+    [SerializeField] private float DashCoolDown = 3.0f;
     [SerializeField] private float FallMultiplier = 10.0f;
     [SerializeField] private LayerMask Ground;
     [SerializeField] private Vector3 Drag;
@@ -20,7 +21,8 @@ public class ImprovedCharacterController : MonoBehaviour
     private CharacterController controller;
     private Vector3 velocity;
     private bool isGrounded = false;
-    private bool isDashing = false;
+   
+    private float dashTimeOut = 0.0f;
   
     void Start()
     {
@@ -79,10 +81,10 @@ public class ImprovedCharacterController : MonoBehaviour
             velocity.y += Gravity * Time.deltaTime;
         }
 
-        if (!isDashing && Keyboard.current.leftShiftKey.wasPressedThisFrame)
+        if (dashTimeOut<Time.time && Keyboard.current.leftShiftKey.wasPressedThisFrame)
         {
             Debug.Log("Dash");
-            isDashing = true;
+            dashTimeOut = Time.time + DashCoolDown;
             velocity += Vector3.Scale(transform.forward, DashDistance * new Vector3((Mathf.Log(1f / (Time.deltaTime * Drag.x + 1)) / -Time.deltaTime), 0, (Mathf.Log(1f / (Time.deltaTime * Drag.z + 1)) / -Time.deltaTime)));
         }
 
