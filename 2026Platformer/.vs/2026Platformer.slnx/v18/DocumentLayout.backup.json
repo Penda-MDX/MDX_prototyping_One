@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\penda\\unity\\MDX_prototyping_One\\2026Platformer\\",
+  "WorkspaceRootPath": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\closemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\closemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\InertiaModelCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InertiaModelCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\checkpointtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpointtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SwitchActivate.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\SwitchActivate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SwitchActivate.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\SwitchActivate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SwitchActivate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T17:14:31.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckPointTracker.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CheckPointTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckPointTracker.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CheckPointTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CheckPointTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T16:34:33.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImprovedCharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ImprovedCharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ImprovedCharacterController.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ImprovedCharacterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ImprovedCharacterController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:18:51.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImprovedCharacterController.cs",
-              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ImprovedCharacterController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ImprovedCharacterController.cs",
-              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ImprovedCharacterController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ImprovedCharacterController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowFoAAAAyAAAAAAAAAA==",
+              "Title": "CloseMessage.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CloseMessage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CloseMessage.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CloseMessage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CloseMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:18:51.052Z",
+              "WhenOpened": "2026-11-10T15:47:26.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InertiaModelCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\InertiaModelCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InertiaModelCharacter.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\InertiaModelCharacter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InertiaModelCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-15T14:49:06.007Z",
               "EditorCaption": ""
             }
           ]

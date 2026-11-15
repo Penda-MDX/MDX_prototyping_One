@@ -18,6 +18,8 @@ public class ImprovedCharacterController : MonoBehaviour
     [SerializeField] private Vector3 Drag;
     [SerializeField] private Transform groundChecker;
 
+    private float airTime = -2.0f;
+
     private CharacterController controller;
     private Vector3 velocity;
     private bool isGrounded = false;
@@ -68,7 +70,7 @@ public class ImprovedCharacterController : MonoBehaviour
 
         if (isGrounded && Keyboard.current.spaceKey.wasReleasedThisFrame)
         {
-            velocity.y += Mathf.Sqrt(JumpHeight * -2f * Gravity);
+            velocity.y += Mathf.Sqrt(JumpHeight * airTime * Gravity);
             isGrounded = false;
         }
         Debug.Log("velocity numbers " + velocity);
