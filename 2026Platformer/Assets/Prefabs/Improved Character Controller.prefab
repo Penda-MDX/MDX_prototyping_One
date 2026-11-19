@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 7579979619709379174}
   - component: {fileID: 7579979619709379175}
   - component: {fileID: 7579979619709379172}
+  - component: {fileID: 6121248481504006664}
   m_Layer: 3
   m_Name: Improved Character Controller
   m_TagString: Player
@@ -192,12 +193,28 @@ MonoBehaviour:
   Gravity: -9.81
   GroundDistance: 0.2
   DashDistance: 5
+  DashCoolDown: 3
   FallMultiplier: 15
   Ground:
     serializedVersion: 2
     m_Bits: 64
   Drag: {x: 0.8, y: 0, z: 0.8}
   groundChecker: {fileID: 7579979619784140200}
+--- !u!114 &6121248481504006664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579979619709379173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3149100d10d165d43abb4e2b24072f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClimbingSwitch
+  isClimbing: 0
+  characterController: {fileID: 7579979619709379172}
+  speed: 4
 --- !u!1 &7579979619784140201
 GameObject:
   m_ObjectHideFlags: 0

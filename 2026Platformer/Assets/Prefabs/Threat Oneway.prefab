@@ -123,10 +123,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776275527757003736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899f6b2290558f544bb0541595e1812f, type: 3}
+  m_Script: {fileID: 11500000, guid: c5999f59375714f4d906095b0db8344a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingVector: {x: -1, y: 0, z: 0}
+  movingVector: {x: 0, y: 0, z: -1}
 --- !u!114 &7536410735815859275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776275527757003736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9658e226525ed91479d76e79270e594f, type: 3}
+  m_Script: {fileID: 11500000, guid: 03642e554159f5c45af27c31a948aa61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifeLengthSeconds: 15
+  LifeLengthSeconds: 10

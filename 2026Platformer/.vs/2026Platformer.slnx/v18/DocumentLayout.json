@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\climbingswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\climbingswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\closemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\closemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\checkpointtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpointtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\2026platformer\\assets\\scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -42,32 +42,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckPointTracker.cs",
-              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CheckPointTracker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckPointTracker.cs",
-              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CheckPointTracker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CheckPointTracker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T16:34:33.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ImprovedCharacterController.cs",
               "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ImprovedCharacterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ImprovedCharacterController.cs",
               "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ImprovedCharacterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ImprovedCharacterController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:18:51.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:18:51.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CloseMessage.cs",
               "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\CloseMessage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CloseMessage.cs",
@@ -75,7 +62,19 @@
               "RelativeToolTip": "Assets\\Scripts\\CloseMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T15:47:26.216Z",
+              "WhenOpened": "2026-11-10T15:47:26.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClimbingSwitch.cs",
+              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ClimbingSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ClimbingSwitch.cs",
+              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\2026Platformer\\Assets\\Scripts\\ClimbingSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ClimbingSwitch.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T16:45:35.731Z",
               "EditorCaption": ""
             }
           ]
