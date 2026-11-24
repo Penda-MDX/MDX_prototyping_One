@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\penda\\unity\\MDX_prototyping_One\\Physics Base\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\physics base\\assets\\scripts\\physics_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\physics_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Physics_Character.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\Physics Base\\Assets\\Scripts\\Physics_Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Physics_Character.cs",
+              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\Physics Base\\Assets\\Scripts\\Physics_Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Physics_Character.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T10:31:14.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

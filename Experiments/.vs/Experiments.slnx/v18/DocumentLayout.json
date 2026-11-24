@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\",
+  "WorkspaceRootPath": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\experiments\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\mousepointerraycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousepointerraycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\experiments\\assets\\scripts\\twirlingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\twirlingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\twirlingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\experiments\\assets\\scripts\\moving_obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\moving_obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moving_obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\penda\\documents\\github\\mdx_prototyping_one\\experiments\\assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\penda\\unity\\mdx_prototyping_one\\experiments\\assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\improvedcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,41 +30,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TwirlingScript.cs",
-              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\TwirlingScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TwirlingScript.cs",
-              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\TwirlingScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TwirlingScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MousePointerRayCollision.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointerRayCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MousePointerRayCollision.cs",
+              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MousePointerRayCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MousePointerRayCollision.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-19T16:07:56.466Z",
+              "WhenOpened": "2026-11-23T12:42:55.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "TwirlingScript.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\TwirlingScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TwirlingScript.cs",
+              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\TwirlingScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TwirlingScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T16:07:56.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MovingPlatform.cs",
-              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MovingPlatform.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatform.cs",
-              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MovingPlatform.cs",
+              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovingPlatform.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwE0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T09:37:19.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Moving_Obstacle.cs",
-              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\Moving_Obstacle.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\Moving_Obstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Moving_Obstacle.cs",
-              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\Moving_Obstacle.cs",
+              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\Moving_Obstacle.cs",
               "RelativeToolTip": "Assets\\Scripts\\Moving_Obstacle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ImprovedCharacterController.cs",
-              "DocumentMoniker": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ImprovedCharacterController.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ImprovedCharacterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ImprovedCharacterController.cs",
-              "ToolTip": "C:\\Users\\penda\\Documents\\GitHub\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ImprovedCharacterController.cs",
+              "ToolTip": "D:\\penda\\unity\\MDX_prototyping_One\\Experiments\\Assets\\Scripts\\ImprovedCharacterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ImprovedCharacterController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
