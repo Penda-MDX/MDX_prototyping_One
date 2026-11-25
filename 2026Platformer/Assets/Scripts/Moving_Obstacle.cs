@@ -8,6 +8,7 @@ public class Moving_Obstacle : MonoBehaviour {
     public int startingWayPoint = 0;
     public float movementSpeed = 3;
     private int currentWayPoint;
+    private int increment = 1;
 
 	// Use this for initialization
 	void Start () {
@@ -29,11 +30,14 @@ public class Moving_Obstacle : MonoBehaviour {
         //when near the waypoint change to the next waypoint
         if (Vector3.Distance(transform.position, temporaryVector3) < movementSpeed/4)
         {
-            currentWayPoint++;
-            if (currentWayPoint > wayPoints.Count-1)
+
+            if ((currentWayPoint == wayPoints.Count - 1 && increment == 1) || (currentWayPoint == 0 && increment == -1))
             {
-                currentWayPoint = startingWayPoint;
+                increment *= -1;
             }
+
+            currentWayPoint += increment;
+
         }
 	}
 }

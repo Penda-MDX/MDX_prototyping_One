@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class TwirlingScript : MonoBehaviour
 {
-    public float rotationSpeed = 1.0f;
+    public Vector3 rotationSpeed;
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.Rotate(0,rotationSpeed*Time.deltaTime, 0);
+        gameObject.transform.Rotate(rotationSpeed*Time.deltaTime);
     }
 }

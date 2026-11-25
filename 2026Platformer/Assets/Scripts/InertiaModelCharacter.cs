@@ -30,9 +30,11 @@ public class InertiaModelCharacter : MonoBehaviour
     private Vector3 lastDirection;
     private Vector3 horizontalVelocity;
 
-    private bool isGrounded = false;
+    public bool isGrounded = false;
+    public LayerMask GroundMask;
     private bool isJumping = false;
     private Vector3 floorNormal = Vector3.up;
+
 
     void Awake()
     {
@@ -78,7 +80,7 @@ public class InertiaModelCharacter : MonoBehaviour
     {
         float rayLength = hoveringHeight + maxStepHeight;
 
-        if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, rayLength))
+        if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, rayLength,GroundMask))
         {
             //
             float angle = Vector3.Angle(hit.normal, Vector3.up);
